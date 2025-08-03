@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="SpotifyClone(project).css">
+    <link rel="icon" href="./SpotifyCloneAssets/logo.png">
+    <title>SpotifyClone</title>
+
+    <!-- cdnjs link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+<div class="main">
+    <div class="sidebar">
+
+        <div class="nav">
+            <span class="spotify" style="font-weight: bold;">
+                <img src="./SpotifyCloneAssets/logo.png" class="spotify_icon">
+                Spotify
+            </span>
+            <div class="home">
+                <label for="homebtn">
+                    <i class="fa-solid fa-house" id="homeicon"></i>
+                </label>
+                <a id="homebtn" href="#" style="text-decoration: none;">home</a>
+            </div>
+
+            <div class="search">
+                <label for="searchbtn">
+                    <i class="fa-solid fa-magnifying-glass" id="searchicon"></i>
+                </label>
+                <a id="searchbtn" href="#">Search</a>
+            </div>
+        </div>
+
+        <div class="library">
+
+            <div class="lib1">
+
+                <div class="yrlib">
+                    <label for="libi" class="lib_icon">
+                        <img class="lib_icon" src="./SpotifyCloneAssets/library_icon.png" alt="logo">
+                    </label>
+                    <a id="lib" href="#">Your Library</a>
+                </div>
+
+                <div class="plus_arrowicon">
+                    <a id="plus_icon" href="#">
+                        <i class="fa-regular fa-plus"></i>
+                    </a>
+                    <a id="arrow_icon" href="#">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="lib2">
+
+                <div class="lib2a">
+                    <span style="font-weight: bold; margin: 5px;">Create your own playlist</span>
+
+                    <span style=" margin: 5px;">It's easy,we'll help you</span>
+
+                    <a href="#" style=" margin: 5px;">
+                        <button class="lib_btn1">Create playlist</button>
+                    </a>
+                </div>
+
+                <div class="lib2b">
+                    <span style="font-weight: bold; margin:5px;">Lets find some podcast to follow</span>
+
+                    <span style="margin:5px;">we'll keep you updated on new episodes</span>
+
+                    <a href="#" style=" margin:5px;">
+                        <button class="lib_btn2">Browse Podcasts</button>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="maincontent">
+
+        <div class="sticky_nav">
+
+            <div class="sticky_navleft">
+                <img src="./SpotifyCloneAssets/backward_icon.png" style="background-color: black; border-radius: 50%;">
+                <img src="./SpotifyCloneAssets/forward_icon.png" style="background-color: black; border-radius: 50%;">
+
+            </div>
+            <div class="sticky_navright">
+                <button class="stnav_btn1">Explore Premium</button>
+                <button class="stnav_btn2">
+                    <i class="fa-sharp fa-regular fa-circle-down"></i>
+                    Install app
+                </button>
+                <i class="fa-solid fa-bell"
+                    style="background-color:black; border-radius: 30%;  margin-right: 10px;"></i>
+                <i class="fa-solid fa-user" style="background-color: black; border-radius: 30%;"></i>
+            </div>
+        </div>
+
+        <div class="all_cards">
+
+            <h2>Recently Played</h2>
+            <div class="cards_container"></div>
+            <div class="cards">
+                <img src="./SpotifyCloneAssets/card1img.jpeg" class="images">
+                <p style="font-weight:bold;">Top 50-Global</p>
+                <p style="font-size:13px;">Your Daily update of most played tracks right...</p>
+                <img src="./SpotifyCloneAssets/player_icon3.png" class="play_icon">
+            </div>
+
+        </div>
+
+
+        <h2>Trending near you</h2>
+        <div class="cards_container">
+            <div class="cards">
+                <img src="./SpotifyCloneAssets/card2img.jpeg" class="images">
+                <p style="font-weight:bold;">Mahiye Jinna sona</p>
+                <p style="font-size:13px;">The song trending near you...</p>
+                <img src="./SpotifyCloneAssets/player_icon3.png" class="play_icon">
+            </div>
+            <div class="cards">
+                <img src="./SpotifyCloneAssets/card3img.jpeg" class="images">
+                <p style="font-weight:bold;">Mere Pass Tum ho</p>
+                <p style="font-size:13px;">The song trending near you...</p>
+                <img src="./SpotifyCloneAssets/player_icon3.png" class="play_icon">
+            </div>
+            <div class="cards">
+                <img src="./SpotifyCloneAssets/card4img.jpeg" class="images">
+                <p style="font-weight:bold;">Leo</p>
+                <p style="font-size:13px;">Trending playlist of Leo...</p> <img
+                    src="./SpotifyCloneAssets/player_icon3.png" class="play_icon">
+            </div>
+            <div class="cards">
+                <img src="./SpotifyCloneAssets/card2img.jpeg" class="images">
+                <p style="font-weight:bold;">Mahiye Jinna sona</p>
+                <p style="font-size:13px;">The song trending near you...</p>
+                <img src="./SpotifyCloneAssets/player_icon3.png" class="play_icon">
+            </div>
+
+        </div>
+
+
+        <h2>Featured Charts</h2>
+        <div class="cards_container">
+            <div class="cards">
+                <img src="./SpotifyCloneAssets/card5img.jpeg" class="images">
+                <p style="font-weight:bold;">Top Songs Global</p>
+                <p style="font-size:13px;">Your Daily update of most played tracks right...</p>
+                <img src="./SpotifyCloneAssets/player_icon3.png" class="play_icon">
+            </div>
+            <div class="cards">
+                <img src="./SpotifyCloneAssets/card6img.jpeg" class="images">
+                <p style="font-weight:bold;">Top Songs India</p>
+                <p style="font-size:13px;">Your Daily update of most played tracks right...</p>
+                <img src="./SpotifyCloneAssets/player_icon3.png" class="play_icon">
+            </div>
+            <div class="cards">
+                <img src="./SpotifyCloneAssets/card1img.jpeg" class="images">
+                <p style="font-weight:bold;">Top 50-Global</p>
+                <p style="font-size:13px;">Your Daily update of most played tracks right...</p>
+                <img src="./SpotifyCloneAssets/player_icon3.png" class="play_icon">
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+
+<div class="musicplayer">
+
+    <div class="mp_left">
+        <img class="mp_leftimg" src="./SpotifyCloneAssets/card6img.jpeg">
+        <span class="mp_discription">
+            <a href="#" style="font-weight: bold;">Top songs india</a>
+            <p style="font-size: 12px; margin:2px 2px">Playlist</p>
+        </span>
+        <i class="fa-sharp fa-solid fa-heart" style="margin:20px"></i>
+    </div>
+
+
+    <div class="mp_center">
+        <div class="mpcenter_icons">
+            <img src="./SpotifyCloneAssets/player_icon1 (1).png" class="mpicon">
+            <img src="./SpotifyCloneAssets/player_icon2.png" class="mpicon">
+            <img src="./SpotifyCloneAssets/player_icon3.png" class="mpicon_play">
+            <img src="./SpotifyCloneAssets/player_icon4.png" class="mpicon">
+            <img src="./SpotifyCloneAssets/player_icon5.png" class="mpicon">
+
+        </div>
+        <div class="mpcenter_progressbtn">
+            <span class="mpstart">00:48</span>
+            <input type="range" min="0" max="100" class="mp_proginput">
+            <span class="mpend">3:33</span>
+        </div>
+    </div>
+
+    <div class="mp_right">
+
+
+        <i class="fa-sharp fa-solid fa-circle-play" id="mpright_icon" style="margin-right: 10px; margin-top: 15px;"></i>
+        <i class="fa-solid fa-microphone" id="mpright_icon " style="margin-right: 10px; margin-top: 15px;"></i>
+        <i class="fa-solid fa-bars" id="mpright_icon" style="margin-right: 10px; margin-top: 15px;"></i>
+        <span class="vol" style="display: flex;">
+            <i class="fa-solid fa-volume-high" id="mpright_icon" style="margin-right: 10px; margin-top: 15px;"></i>
+            <input type="range" min="0" max="100" class="mpright_progbtn">
+        </span>
+        <i class="fa-solid fa-up-right-and-down-left-from-center" id="mpright_icon"
+            style="margin-right: 10px; margin-top: 15px; margin-left: 10px;"></i>
+
+    </div>
+</div>
+</div>
+
+<body>
+
+</body>
+
+</html>

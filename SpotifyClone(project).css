@@ -1,0 +1,296 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.main {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.sidebar {
+    border-radius: 1rem;
+    /* 1rem=16px */
+    width: 350px;
+    height: 10rem;
+    background-color: black;
+}
+
+.maincontent {
+
+    border-radius: 1rem;
+    flex: 1;
+    /*this prop. is used to cover all the remaining space remain after the spacing of other content*/
+    height: 30.5rem;
+    overflow: auto;
+    /* auto is used for the use of scroll button if needed */
+    background-color: #121212;
+    padding: 0 15px 15px;
+    margin: 8px;
+    margin-top: 2px;
+}
+
+.musicplayer {
+    position: fixed;
+    bottom: 0px;
+    width: 75rem;
+    height: 72px;
+    display: flex;
+}
+
+.spotify {
+    margin-left: 18px;
+    margin-bottom: 15px;
+}
+
+.spotify_icon {
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+}
+
+.nav {
+    padding: 8px 12px;
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.home {
+    padding: 4px 12px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+#homeicon {
+    margin-right: 10px;
+}
+
+.search {
+    padding: 4px 12px;
+    margin: 5px;
+}
+
+#searchicon {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.library {
+    border-radius: 1rem;
+    background-color: #121212;
+}
+
+
+.lib1 {
+    display: flex;
+    height: 36px;
+    margin: 17px;
+}
+
+.yrlib {
+    padding: 2px 8px;
+    margin-top: 10px;
+    opacity: 0.5;
+
+}
+
+.lib_icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+#lib_icon {
+    font-size: 18px;
+}
+
+.plus_arrowicon {
+    padding: 10px;
+    position: absolute;
+    left: 275px;
+}
+
+#plus_icon {
+    padding: 8px;
+}
+
+#arrow_icon {
+    padding: 8px;
+}
+
+.lib2 {
+    padding: 5px 8px 8px;
+    height: 295px;
+
+}
+
+.lib2a {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 1rem;
+    background-color: #232323;
+
+}
+
+.lib2b {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    background-color: #232323;
+    border-radius: 1rem;
+}
+
+.lib_btn1 {
+    border-radius: 1rem;
+    height: 32px;
+    font-weight: bold;
+}
+
+.lib_btn2 {
+    border-radius: 1rem;
+    height: 32px;
+    font-weight: bold;
+}
+
+.sticky_nav {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 10px;
+    background-color: #121212;
+}
+
+.stnav_btn1 {
+    border-radius: 1rem;
+    height: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.stnav_btn2 {
+    border-radius: 1rem;
+    height: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+}
+
+.all_cards {
+    width: 400px;
+}
+
+.cards_container {
+    display: flex;
+}
+
+.cards {
+    width: 150px;
+    padding: 10px;
+    background-color: #232323;
+    border-radius: 0.75rem;
+    margin: 10px;
+
+}
+
+.cards:hover {
+    box-shadow: 5px 5px #232323;
+}
+
+.images {
+    width: 150px;
+    border-radius: 0.75rem;
+}
+
+.play_icon {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    bottom: 110px;
+    left: 120px;
+    display: none;
+}
+
+.cards:hover .play_icon {
+    display: block;
+}
+
+.mp_left {
+    display: flex;
+    margin: 0px;
+    width: 320px;
+}
+
+.mp_leftimg {
+    height: 56px;
+    width: 56px;
+    margin: 6px;
+
+}
+
+.mp_discription {
+    padding: 10px;
+}
+
+.mp_center {
+    height: 56px;
+    width: 850px;
+
+}
+
+.mpcenter_icons {
+    display: flex;
+    justify-content: center;
+}
+
+.mpicon {
+    height: 16px;
+    width: 16px;
+    margin: 10px 15px;
+    opacity: 0.6;
+}
+
+.mpicon_play {
+    height: 30px;
+    width: 30px;
+    margin: 5px 15px;
+    margin-top: 5px;
+}
+
+.mpcenter_progressbtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.mp_proginput {
+    width: 335px;
+}
+
+.mp_right {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
